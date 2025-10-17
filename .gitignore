@@ -1,0 +1,188 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+*.VC.db
+*.VC.VC.opendb
+*.user
+*.userosscache
+*.suo
+*.csproj.user
+*.vbproj.user
+*.vcxproj.user
+*.vspscc
+*.vssscc
+_*VS_Coverage*
+*.VC.db-shm
+*.VC.db-wal
+
+# Visual Studio Code
+.vscode/
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET 6/7/8/9
+global.json
+[bc]ore
+*.fsp
+
+# ASP.NET Core
+wwwroot/
+!wwwroot/wwwroot/
+wwwroot/
+
+# Runtime-specific .NET directories
+bin/Release/net*/publish
+bin/Debug/net*/publish
+
+# User-specific files
+*.userprefs
+*.swm
+
+# Files built by Visual Studio
+*_i.cs
+*_g.cs
+*.Cpp2IL.xml
+*.Cache.xml
+
+# Syncfusion
+syncfusion.license
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/packages/
+.nuget/v3/
+[Nn]u[Pp]ackages/
+[NuGet]/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+ Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+
+# CodeRush
+.cr/
+
+# Azure Artifacts
+artifacts/
+
+# Coverlet
+coverage.json
+coverage.cobertura.xml
+coverage.opencover.xml
+
+# Local .NET Tooling
+.tools/
+
+# Project specific (Databases)
+*.db
+*.db-shm
+*.db-wal
+
+# Project specific (Swagger)
+.swagger-codegen/
+.swagger-codegen-ignore
+swagger/
+
+# Project specific (Entity Framework)
+Migrations/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment specific settings
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Development.json
+appsettings.Local.json
+
+# IDE
+*.pidb
+*.userprefs
+*.sln.docstates
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+ehthumbs.db
+Thumbs.db:encryptable
+[Dd]esktop.ini
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Entity Framework Core
+**/Migrations/
+
+# User secrets
+**/secrets.user.json
+**/Properties/launchSettings.json  # Only if you want to exclude it (not recommended if it contains important settings)
